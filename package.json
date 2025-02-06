@@ -1,0 +1,29 @@
+{
+    "name": "light-blue-theme",
+    "displayName": "Light Blue Theme",
+    "description": "A light theme inspired by Visual Studio 2022",
+    "version": "0.1.0",
+    "publisher": "tpill90",
+    "author": {
+        "name": "Tim Pilius"
+    },
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light Blue",
+                "uiTheme": "vs",
+                "path": "./themes/Light Blue-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tpill90/vscode-light-blue-theme"
+    }
+}
