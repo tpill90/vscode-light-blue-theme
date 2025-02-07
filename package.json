@@ -2,7 +2,7 @@
     "name": "light-blue-theme",
     "displayName": "Light Blue Theme",
     "description": "A light theme inspired by Visual Studio 2022",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "tpill90",
     "author": {
         "name": "Tim Pilius"
