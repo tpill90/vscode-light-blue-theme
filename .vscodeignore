@@ -1,4 +1,6 @@
 .vscode/**
 .vscode-test/**
+language-test-files/**
 .gitignore
 vsc-extension-quickstart.md
+Sample.png
