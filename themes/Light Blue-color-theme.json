@@ -1,7 +1,7 @@
 {
     "$schema": "vscode://schemas/color-theme",
 	"name": "Light Blue",
-    "include": "./default themes/light_plus.json",
+    "include": "./default themes/base.json",
 	"colors": {
          //TODO finish powershell theme https://github.com/PowerShell/vscode-powershell/blob/main/themes/theme-psise/theme.json
         //TODO markdown looks rough
