@@ -100,7 +100,8 @@
         {
             "name": "Function Name",
             "scope": [
-                "entity.name.function"
+                "entity.name.function",
+                "support.function",
             ],
             "settings": {
                 "foreground": "#000000"
