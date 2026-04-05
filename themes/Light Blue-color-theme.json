@@ -1,9 +1,10 @@
 {
     "$schema": "vscode://schemas/color-theme",
-	"name": "Light Blue",
+    "name": "Light Blue",
     "include": "./default themes/base.json",
-	"colors": {
-         //TODO finish powershell theme https://github.com/PowerShell/vscode-powershell/blob/main/themes/theme-psise/theme.json
+    "colors":
+    {
+        //TODO finish powershell theme https://github.com/PowerShell/vscode-powershell/blob/main/themes/theme-psise/theme.json
         //TODO markdown looks rough
         "activityBar.activeBorder": "#4074dd",
         "activityBar.background": "#ccd5f0",
@@ -16,19 +17,19 @@
         "commandCenter.background": "#ffffff",
 
         "editorBracketMatch.background": "#e2e6d6",
-    	"editorBracketMatch.border": "#00000000",
-    	"editor.foldBackground": "#00000000",
+        "editorBracketMatch.border": "#00000000",
+        "editor.foldBackground": "#00000000",
         "editorLineNumber.foreground": "#7a7a7a",
 
         // Controls chevron color
-    	"editorGutter.foldingControlForeground": "#000000",
+        "editorGutter.foldingControlForeground": "#000000",
 
         // Suggest Widget is the ctrl+space intellisense popup
-    	"editorSuggestWidget.background": "#f7f9fe",
+        "editorSuggestWidget.background": "#f7f9fe",
         "editorSuggestWidget.foreground": "#1e1e1e",
-        "editorSuggestWidget.selectedBackground" : "#c4d5ff",
-    	"editorSuggestWidget.highlightForeground": "#1e1e1e",
-    	"editorSuggestWidget.focusHighlightForeground": "#1e1e1e",
+        "editorSuggestWidget.selectedBackground": "#c4d5ff",
+        "editorSuggestWidget.highlightForeground": "#1e1e1e",
+        "editorSuggestWidget.focusHighlightForeground": "#1e1e1e",
 
         // Editor Widget is things like the Find+Replace dialog
         "editorWidget.background": "#e9eeff",
@@ -37,32 +38,32 @@
         "foreground": "#363636",
 
         // Text input box on things like find + replace
-    	"input.background": "#fcfcfc",
-    	"input.border": "#203d77",
+        "input.background": "#fcfcfc",
+        "input.border": "#203d77",
 
-    	"list.inactiveSelectionBackground": "#e6e7ef",
-    	"list.hoverBackground": "#00000000",
-    	"list.activeSelectionBackground": "#c4d5ff",
-    	"list.focusAndSelectionOutline": "#203d77",
-    	"list.activeSelectionForeground": "#1e1e1e",
+        "list.inactiveSelectionBackground": "#e6e7ef",
+        "list.hoverBackground": "#00000000",
+        "list.activeSelectionBackground": "#c4d5ff",
+        "list.focusAndSelectionOutline": "#203d77",
+        "list.activeSelectionForeground": "#1e1e1e",
 
-    	"menu.background": "#e9eeff",
-    	"menu.border": "#94a6ca",
-    	"menu.separatorBackground": "#c0cae9",
-    	"menu.selectionBackground": "#b1c5ff",
-    	"menu.selectionBorder": "#203d77",
-    	"menubar.selectionBackground": "#ecf4ff",
+        "menu.background": "#e9eeff",
+        "menu.border": "#94a6ca",
+        "menu.separatorBackground": "#c0cae9",
+        "menu.selectionBackground": "#b1c5ff",
+        "menu.selectionBorder": "#203d77",
+        "menubar.selectionBackground": "#ecf4ff",
 
-    	"sideBar.background": "#f7f9fe",
-    	"sideBar.border": "#5d6b99",
+        "sideBar.background": "#f7f9fe",
+        "sideBar.border": "#5d6b99",
 
         "sideBarSectionHeader.border": "#333333",
-    	"sideBarSectionHeader.background": "#bbcfff",
+        "sideBarSectionHeader.background": "#bbcfff",
 
-    	"statusBar.background": "#40508d",
-    	"statusBar.noFolderBackground": "#40508d",
-    	"statusBar.debuggingBackground": "#40508d",
-    	"statusBarItem.hoverBackground": "#6673a4",
+        "statusBar.background": "#40508d",
+        "statusBar.noFolderBackground": "#40508d",
+        "statusBar.debuggingBackground": "#40508d",
+        "statusBarItem.hoverBackground": "#6673a4",
 
         //TODO
         // "editorGroupHeader.tabsBackground": "#5d6b99",
@@ -74,8 +75,8 @@
 
         "titleBar.activeBackground": "#ccd5f0",
         "titleBar.inactiveBackground": "#ccd5f0",
-	},
-	"tokenColors": [
+    },
+    "tokenColors": [
         {
             "name": "Type alias",
             "scope": [
@@ -381,36 +382,36 @@
                 "foreground": "#000000"
             }
         },
-	],
+    ],
 
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "class": "#2B91AF",
-            "constant": "#000000",
-            "controlKeyword": "#8F08C4",
-            "macro": "#808080",
-            "namespace": "#000000",
-            "number": "#000000",
-            "parameter": "#1F377F",
-            "preprocessorText": "#000000",
-            "property": "#000000",
-            "punctuation": "#000000",
-            "string": "#A31515",
-            "stringEscapeCharacter": "#B776FB",
-            "stringVerbatim": "#800000",
-            "variable": "#1F377F",
-            "variable.defaultLibrary":"#2B91AF",
-            "regexp": "#800000",
-            "regexAlternation": "#05C3BA",
-            "regexAnchor": "#FF00C1",
-            "regexCharacterClass": "#0073FF",
-            "regexComment": "#008000",
-            "regexGrouping": "#05C3BA",
-            "regexOtherEscape": "#9E5B71",
-            "regexQuantifier": "#FF00C1",
-            "regexSelfEscapedCharacter": "#800000",
-            "regexSource": "#000000",
-            "regexSpecialCharacter": "#ff0000",
-            "regexText": "#800000",
+        "constant": "#000000",
+        "controlKeyword": "#8F08C4",
+        "macro": "#808080",
+        "namespace": "#000000",
+        "number": "#000000",
+        "parameter": "#1F377F",
+        "preprocessorText": "#000000",
+        "property": "#000000",
+        "punctuation": "#000000",
+        "string": "#A31515",
+        "stringEscapeCharacter": "#B776FB",
+        "stringVerbatim": "#800000",
+        "variable": "#1F377F",
+        "variable.defaultLibrary": "#2B91AF",
+        "regexp": "#800000",
+        "regexAlternation": "#05C3BA",
+        "regexAnchor": "#FF00C1",
+        "regexCharacterClass": "#0073FF",
+        "regexComment": "#008000",
+        "regexGrouping": "#05C3BA",
+        "regexOtherEscape": "#9E5B71",
+        "regexQuantifier": "#FF00C1",
+        "regexSelfEscapedCharacter": "#800000",
+        "regexSource": "#000000",
+        "regexSpecialCharacter": "#ff0000",
+        "regexText": "#800000",
     }
 }

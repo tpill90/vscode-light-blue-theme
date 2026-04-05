@@ -15,7 +15,7 @@ A light theme for VSCode inspired by Visual Studio 2022.  Heavily draws inspirat
 
 * Press `F5` to open a new window with your extension loaded.
 * Changes to the theme file are automatically applied to the Extension Development Host window.
-* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P`).
 
 ## Publishing
 

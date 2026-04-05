@@ -9,7 +9,7 @@ namespace SteamPrefill
             _ansiConsole = ansiConsole;
         }
 
-        #region Regiom
+        #region Region
 
         /// <summary>
         /// Sample Summary
