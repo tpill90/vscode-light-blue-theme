@@ -504,8 +504,9 @@
                 "keyword.other.operator",
                 "entity.name.operator"
             ],
-            "settings": {
-                "foreground": "#AF00DB"
+            "settings":
+            {
+                "foreground": "#8F08C4"
             }
         },
         {

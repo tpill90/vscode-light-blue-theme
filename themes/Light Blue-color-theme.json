@@ -336,9 +336,21 @@
             }
         },
         {
+            "name": "C#: XML docs",
+            "scope":
+            [
+                "entity.name.tag.localname.cs"
+            ],
+            "settings":
+            {
+                "foreground": "#808080"
+            }
+        },
+        {
             "name": "C#: #region declaration",
             "scope":
             [
+                "keyword.preprocessor.endregion.cs",
                 "keyword.preprocessor.region.cs",
                 "punctuation.separator.hash.cs"
             ],
@@ -356,6 +368,28 @@
             "settings":
             {
                 "foreground": "#2B91AF"
+            }
+        },
+        {
+            "name": "C# using",
+            "scope":
+            [
+                "keyword.other.directive.using.cs",
+            ],
+            "settings":
+            {
+                "foreground": "#0000FF"
+            }
+        },
+        {
+            "name": "C# await",
+            "scope":
+            [
+                "keyword.operator.expression.await.cs",
+            ],
+            "settings":
+            {
+                "foreground": "#8F08C4"
             }
         },
 
