@@ -1,2 +1,3 @@
 node_modules
 *.vsix
+/language-test-files/.vs

@@ -76,16 +76,9 @@
         "titleBar.activeBackground": "#ccd5f0",
         "titleBar.inactiveBackground": "#ccd5f0",
     },
-    "tokenColors": [
-        {
-            "name": "Type alias",
-            "scope": [
-                "entity.name.type.alias.cs"
-            ],
-            "settings": {
-                "foreground": "#2B91AF"
-            }
-        },
+
+    "tokenColors":
+    [
         {
             "name": "Keyword, delete, builtin function",
             "scope": [
@@ -221,16 +214,7 @@
                 "foreground": "#000000"
             }
         },
-        {
-            "name": "XML: preprocessor, tag name",
-            "scope": [
-                "meta.tag.preprocessor.xml",
-                "entity.name.tag.localname"
-            ],
-            "settings": {
-                "foreground": "#800000"
-            }
-        },
+
         {
             "name": "CSS: Selector",
             "scope": [
@@ -324,64 +308,109 @@
                 "fontStyle": "bold"
             }
         },
+
+        // #region C#
         {
             "name": "C#: defaults",
-            "scope": [
+            "scope":
+            [
                 "entity.name.type.namespace.cs",
                 "punctuation.parenthesis.open.cs",
                 "punctuation.parenthesis.close.cs",
                 "punctuation.terminator.statement.cs"
             ],
-            "settings": {
+            "settings":
+            {
                 "foreground": "#000000"
             }
         },
         {
             "name": "C#: Region text",
-            "scope": [
+            "scope":
+            [
                 "string.unquoted.preprocessor.message.cs"
             ],
-            "settings": {
+            "settings":
+            {
                 "foreground": "#000000"
             }
         },
         {
             "name": "C#: #region declaration",
-            "scope": [
+            "scope":
+            [
                 "keyword.preprocessor.region.cs",
                 "punctuation.separator.hash.cs"
             ],
-            "settings": {
+            "settings":
+            {
                 "foreground": "#808080"
             }
         },
         {
+            "name": "C# Type alias",
+            "scope":
+            [
+                "entity.name.type.alias.cs"
+            ],
+            "settings":
+            {
+                "foreground": "#2B91AF"
+            }
+        },
+
+        // #endregion C#
+
+        // #region Powershell
+        {
             "name": "Powershell: Variable",
-            "scope": [
+            "scope":
+            [
                 "variable.other.readwrite.powershell"
             ],
-            "settings": {
+            "settings":
+            {
                 "foreground": "#EC2D00"
             }
         },
         {
             "name": "Powershell: Functions",
-            "scope": [
+            "scope":
+            [
                 "support.function.powershell"
             ],
-            "settings": {
+            "settings":
+            {
                 "foreground": "#0000FF"
             }
         },
         {
             "name": "Powershell: Variable function call",
-            "scope": [
+            "scope":
+            [
                 "variable.other.member.powershell"
             ],
-            "settings": {
+            "settings":
+            {
                 "foreground": "#000000"
             }
         },
+        // #endregion
+
+        // #region XML
+
+        {
+            "name": "XML: preprocessor, tag name",
+            "scope": [
+                "meta.tag.preprocessor.xml",
+                "entity.name.tag.localname"
+            ],
+            "settings": {
+                "foreground": "#800000"
+            }
+        },
+
+        // #endregion
     ],
 
     "semanticHighlighting": true,

@@ -1,3 +1,5 @@
+global using PicsProductInfo = SteamKit2.SteamApps.PICSProductInfoCallback.PICSProductInfo;
+
 namespace SteamPrefill
 {
     public sealed class SteamManager : IDisposable
@@ -14,7 +16,7 @@ namespace SteamPrefill
         /// <summary>
         /// Sample Summary
         /// </summary>
-        public async Task SampleFunction()
+        public async Task SampleFunction(string param)
         {
             // Comment
             var timer = Stopwatch.StartNew();
@@ -24,6 +26,11 @@ namespace SteamPrefill
             foreach (var app in availableGames)
             {
                 var test = new Console();
+            }
+
+            if (!_steam3Session.LicenseManager.AccountHasAppAccess(depot.ContainingAppId))
+            {
+                continue;
             }
         }
 
