@@ -47,12 +47,23 @@
         "list.focusAndSelectionOutline": "#203d77",
         "list.activeSelectionForeground": "#1e1e1e",
 
+        // Colors the tab text depending on the git status of the file.
+        // "gitDecoration.addedResourceForeground": "#81b88b",
+        // "gitDecoration.untrackedResourceForeground": "#73c991",
+
         "menu.background": "#e9eeff",
         "menu.border": "#94a6ca",
         "menu.separatorBackground": "#c0cae9",
         "menu.selectionBackground": "#b1c5ff",
         "menu.selectionBorder": "#203d77",
         "menubar.selectionBackground": "#ecf4ff",
+
+        "panel.border": "#94a6ca",
+
+        "panel.background": "#94a6ca",
+        "panelTitle.activeBorder": "#fc0000",
+        "panelTitle.border": "#fc0000",
+        "panelSectionHeader.border": "#fc0000",
 
         "sideBar.background": "#f7f9fe",
         "sideBar.border": "#5d6b99",
@@ -67,8 +78,10 @@
 
         //TODO
         // "editorGroupHeader.tabsBackground": "#5d6b99",
-        //TODO find some better icons that allow you to see what the file type is with the darker background
+        //TODO find some better icons that allow you to see what the file type is with the light background
         "tab.activeBackground": "#f5cc84",
+        "tab.hoverBackground": "#BBC6F1",
+        "tab.hoverForeground": "#213449",
         "tab.inactiveBackground": "#3b4f81",
         "tab.inactiveForeground": "#ffffff",
         "tab.lastPinnedBorder": "#ffffff",
