@@ -28,6 +28,7 @@ vsce publish minor
 
 ## Other Links + References
 
+* [Publisher Management Page](https://marketplace.visualstudio.com/manage/publishers/tpill90)
 * [Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
 * [Guide on Creating a Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme)
 * [How to publish an extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
