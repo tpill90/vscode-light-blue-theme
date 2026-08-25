@@ -23,7 +23,7 @@ A light theme for VSCode inspired by Visual Studio 2022.  Heavily draws inspirat
 
 To publish a newer version:
 ```
-vsce publish minor
+vsce publish
 ```
 
 ## Other Links + References
